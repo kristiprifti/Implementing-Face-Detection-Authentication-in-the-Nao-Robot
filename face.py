@@ -1,3 +1,4 @@
+#Description : Takes a picture and crops the face# 
 import numpy as np
 import cv2
 
