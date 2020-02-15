@@ -1,3 +1,5 @@
+#Description : Visualize an image using PIL¶
+#Get one image from NAO, then display it using PIL.
 import qi
 import argparse
 import sys
