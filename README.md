@@ -5,4 +5,5 @@ The Nao Robot has a tremendous ability to modernize and deliver fast and accurat
 # Weekly Progress 
 
 # Week 1
+The NAO is taking pictures through his build-in cameras. The program that is used to make him take picture is attached TakePicUsingNao.py
 
