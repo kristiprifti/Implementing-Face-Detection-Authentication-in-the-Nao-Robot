@@ -5,14 +5,15 @@ The Nao Robot has a tremendous ability to modernize and deliver fast and accurat
 # Weekly Progress 
 
 # Week 1
-The NAO is taking pictures through his build-in cameras.
-The pictures taken by NAO robot are saved in the connected machine and are easily accessed.
-Pictures can be captured by using either Choregraphe or by using self-made algorithim. Here, we found that images from the algorithim are better than the one from Choregraphe.
-The algorithim, that is used here to take pictures from NAO robot is TakePicUsingNao.py
+•	The NAO is taking pictures through its build-in cameras.
+•	The pictures taken by NAO robot are saved in the connected machine and are easily accessed.
+•	Pictures can be captured by using either Choregraphe or by using self-made algorithm. Here, we found that images from the algorithm are better than the one from Choregraphe.
+•	The algorithm, that is used here to take pictures from NAO robot is TakePicUsingNao.py
 
 To do for next week:
-Try to take multiple images ata time.
-Make NAO to recognoize the face from those images by using Choregraphe.
+•	Try to take multiple images at a time.
+•	Make NAO to recognize the face from those images by using Choregraphe.
+
 
 
 
