@@ -5,5 +5,11 @@ The Nao Robot has a tremendous ability to modernize and deliver fast and accurat
 # Weekly Progress 
 
 # Week 1
-The NAO is taking pictures through his build-in cameras. The program that is used to make him take picture is attached TakePicUsingNao.py
+The NAO is taking pictures through his build-in cameras.
+The pictures taken by NAO robot are saved in the connected machine and are easily accessed.
+Pictures can be captured by using either Choregraphe or by using self-made algorithim. Here, we found that images from the algorithim are better than the one from Choregraphe.
+The algorithim, that is used here to take pictures from NAO robot is TakePicUsingNao.py
+
+
+
 
