@@ -10,6 +10,9 @@ The pictures taken by NAO robot are saved in the connected machine and are easil
 Pictures can be captured by using either Choregraphe or by using self-made algorithim. Here, we found that images from the algorithim are better than the one from Choregraphe.
 The algorithim, that is used here to take pictures from NAO robot is TakePicUsingNao.py
 
+To do for next week:
+Try to take multiple images ata time.
+Make NAO to recognoize the face from those images by using Choregraphe.
 
 
 
