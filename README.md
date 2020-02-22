@@ -1,6 +1,13 @@
-# Implementing-and-Comparing-Facial-Recognition-Authentication-in-the-Nao-Robot
+# Implementing The Face Detection Authentication in the Nao Robot
 
-The Nao Robot has a tremendous ability to modernize and deliver fast and accurate results in everyday life applications. People who had worked with NAO robots know that the in-build cameras of NAO are not so good. Basically, our project is to create and compare algorithms that recognize the faces from the “not so good” images taken by NAO Robot with the help of pythons deep learning libraries like TensorFlow and PyTorch. First, we take some pictures using the NAO’s built-in camera. Now, Using OpenCV’s different algorithms, we will try to detect the face on those images. We are going to build a model and use TensorFlow or PyTorch to train the model over time. Using this face recognition programs, one can program the Nao to take the class attendance. The robot will be able to recognize the faces of all the students and tell them when they're late. The Nao robot will improve class time management. This model has abilities beyond the classroom. It can be programmed to be used to check-in and check-out in hospitals, hotels, airports, work, and has a lot more abilities, power and applications.
+The NAO Robot a wide range of applications to automate many of our daily tasks. The NAO
+robot has a built-in camera that can be used to recognize faces. Our project is to use NAO
+robot to take the attendance for our classes. First, we will train NAO to learn the faces of
+the students and save it in its memory. After the training, we will build a Blackboard
+interface to take attendance using the NAO robot. This work will be based on the Python
+programming language and Choregraphe software. Our application has the potential
+beyond the classroom. Eventually, it could be programmed to use for check-in and check-
+out in hospitals, hotels, airports, work, etc.
 
 # Weekly Progress 
 
@@ -13,11 +20,7 @@ The Nao Robot has a tremendous ability to modernize and deliver fast and accurat
 
 •	The algorithm, that is used here to take pictures from NAO robot is TakePicUsingNao.py
 
-To do for next week:
 
-•	Try to take multiple images at a time.
-
-•	Make NAO to recognize the face from those images by using Choregraphe.
 
 
 
