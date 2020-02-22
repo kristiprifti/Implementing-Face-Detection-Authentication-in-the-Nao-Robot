@@ -1,3 +1,4 @@
+# Recognizes faces from pics taken from NAO robto and prints the time and date of pic taken 
 import face_recognition as fr
 import os
 import cv2
