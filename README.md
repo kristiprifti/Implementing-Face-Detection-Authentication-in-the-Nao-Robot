@@ -20,6 +20,22 @@ out in hospitals, hotels, airports, work, etc.
 
 •	The algorithm, that is used here to take pictures from NAO robot is TakePicUsingNao.py
 
+# Week 2
+• Using face_rec.py to recognize the perosn in the picture taken by NAO robot
+
+• facesrec.py is able to print the names of the faces   NAO has already learned using "learn face " module in Choregraphe.
+
+• Storing the data  from face_rec.py to a .txt file ( Persons name and date and time of pic taken )
+
+# Week 4 
+
+Plan 
+
+• Creating a website and stroing the data from .txt file.
+
+
+
+
 
 
 
