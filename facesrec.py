@@ -1,3 +1,4 @@
+#uses the faces  NAO has already learned using "learn face " module in Choregraphe and prints the name of the person NAO is seeing. 
 #! /usr/bin/env python
 # -*- encoding: UTF-8 -*-
 
