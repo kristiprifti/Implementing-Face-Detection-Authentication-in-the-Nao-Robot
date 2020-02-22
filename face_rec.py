@@ -1,4 +1,7 @@
-# Recognizes faces from pics taken from NAO robto and prints the time and date of pic taken 
+#face_rec.py uses the pics taken form testpic4.py and process them.
+#Looks through the faces folder and encodes all the faces .
+#Will find all of the faces in a given image and label them if it knows what they are.
+#It stores the face name and date and time in a text file  
 import face_recognition as fr
 import os
 import cv2
