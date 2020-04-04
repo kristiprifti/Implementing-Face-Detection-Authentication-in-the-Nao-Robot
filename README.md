@@ -42,6 +42,7 @@ Plan for upcoming week:
 # Week 9
 
 Report:
+
 • The website is taking the data from the .txt file created by NAO. The website shows which students are present and are absent. 
 
 
