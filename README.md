@@ -1,7 +1,9 @@
 # Implementing The Face Detection Authentication in the Nao Robot
 
 Kristi Prifti
+
 Krutarth Patel
+
 Hue Do
 
 The NAO Robot a wide range of applications to automate many of our daily tasks. The NAO
