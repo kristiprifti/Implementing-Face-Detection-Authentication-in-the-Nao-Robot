@@ -1,5 +1,9 @@
 # Implementing The Face Detection Authentication in the Nao Robot
 
+Kristi Prifti
+Krutarth Patel
+Hue Do
+
 The NAO Robot a wide range of applications to automate many of our daily tasks. The NAO
 robot has a built-in camera that can be used to recognize faces. Our project is to use NAO
 robot to take the attendance for our classes. First, we will train NAO to learn the faces of
@@ -23,18 +27,20 @@ out in hospitals, hotels, airports, work, etc.
 # Week 2
 • Using face_rec.py to recognize the perosn in the picture taken by NAO robot
 
-• facesrec.py is able to print the names of the faces   NAO has already learned using "learn face " module in Choregraphe.
+• facesrec.py is able to print the names of the faces. NAO has already learned the face using "learn face " module in Choregraphe.
 
-• Storing the data  from face_rec.py to a .txt file ( Persons name and date and time of pic taken )
+• Storing the data from face_rec.py to a .txt file ( Persons name and date and time of pic taken )
 
 # Week 4 
 
-Plan 
+Plan for upcoming week:
 
-• Creating a website and stroing the data from .txt file.
+• Creating a website and storing the data from .txt file, which is created by NAO.
 
+# Week 9
 
-
+Report:
+• The website is taking the data from the .txt file created by NAO. The website shows which students are present and are absent. 
 
 
 
