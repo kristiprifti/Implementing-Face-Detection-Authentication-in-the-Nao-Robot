@@ -100,7 +100,11 @@ Plan for the upcoming week:
  
 • Another way of doing data posting is by using mechanize pyhton libary  (mechanize.py)
 
+Plan for the upcoming week:
 
+• Planning to add a time option to the website. 
+
+• Automating the python scripts to run continually  ( Take a pic ==>  recognize  student ==>  post data to the website ) 
 
 
 # Week 9
