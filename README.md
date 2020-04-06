@@ -92,8 +92,13 @@ Plan for the upcoming week:
 • Planning to use Request library to post data to website directly from python 
 
 
+#Week 8 
 
+• Using requests  and beautifulsoup4 python libraries to post data to the website directly from python
 
+• Using file testrequets.py to do the data posting to the website 
+ 
+• Another way of doing data posting is by using mechanize pyhton libary  (mechanize.py)
 
 
 
