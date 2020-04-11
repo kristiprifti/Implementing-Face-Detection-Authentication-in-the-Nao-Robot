@@ -57,7 +57,7 @@ KRISTI & KRUTARTH:
 
 • Learn how to use the face_recognition libary in python. File face_rec.py uses mulitiple pyhton libarys do perform facial recogntition.
 
-• Python learing on CodeAcademy.
+• Learning Python online.
 
 • Reaseaching some better ways to do real-time face recognition.
 
