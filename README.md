@@ -15,7 +15,7 @@ programming language and Choregraphe software. Our application has potential
 beyond the classroom. Eventually, it could be programmed to use for check-in and check-
 out in hospitals, hotels, airports, work, etc.
 
-# Weekly Progress 
+# Weekly Progress Report
 
 # Week 1 of 01/19/20:
 
@@ -179,6 +179,12 @@ PLAN FOR NEXT WEEK:
 
 # Week 12 of 04/05/20:
 
+KRISTI & KRUTARTH:
+
+• Using file testrequets.py to do the data posting to the website 
+
+• Another way of doing data posting is by using mechanize pyhton libary  (mechanize.py)
+
 REPORT FROM ALL GROUP MEMBERS:
 
 • Created the program that asks the user to input the date and starting time of class. 
@@ -192,4 +198,13 @@ PLAN FOR NEXT WEEK:
 • We will start writing the Documentation and Research Paper of our project.
 
 # Week 13 of 04/12/20:
+
+
+# Week 14 of 04/19/20:
+
+
+# Week 15 of 04/26/20:
+
+
+# Week 16 of 05/03/20:
 
