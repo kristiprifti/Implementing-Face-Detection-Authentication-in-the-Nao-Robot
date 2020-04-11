@@ -22,9 +22,11 @@ out in hospitals, hotels, airports, work, etc.
 We are starting our project by doing research for different programs and documentation.
 
 KRUTARTH:
+
 • Performed some research and found some code that could be useful in making NAO to take pictures.
 
 KRISTI:
+
 •	Pictures can be captured by using Choregraphe as well. Here, we found that images from the code are better than the one from Choregraphe.
 
 •	The algorithm, that is used here to take pictures from NAO robot is TakePicUsingNao.py
