@@ -111,5 +111,8 @@ Plan for the upcoming week:
 
 Report:
 
-• The website is taking the data from the .txt file created by NAO. The website shows which students are present and are absent. Researching of other ways to do real-time face recognition 
+• The website is taking the data from the .txt file created by NAO. The website shows which students are present and are absent.
+
+Plan for upcoming week:
+Researching of other ways to do real-time face recognition 
 
