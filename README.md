@@ -159,11 +159,11 @@ PLAN FOR NEXT WEEK:
 
 # Week 9 of 03/15/20:
 
-# Spring Break.
+  Spring Break.
 
 # Week 10 of 03/22/20:
 
-# Spring Break.
+  Spring Break.
 
 # Week 11 of 03/29/20:
 
