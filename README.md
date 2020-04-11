@@ -10,7 +10,7 @@ Hao Loi (Faculty Sponsor)
 
 Department of Computer Science, Quinsigamond Community College
 
-# Implementing The Face Detection Authentication in the Nao Robot
+# Implementing The Face Detection Authentication in the NAO Robot
 
 The NAO Robot a wide range of applications to automate many of our daily tasks. The NAO robot has a built-in camera that can be used to recognize faces. Our project is to use NAO robot to take the attendance for our classes. First, we will train NAO to learn the faces of the students and save it in its memory. After the training, we will build a Blackboard interface to take attendance using the NAO robot. This work will be based on the Python programming language and Choregraphe software. Our application has the potential beyond the classroom. Eventually, it could be programmed to use for check-in and check-out in hospitals, hotels, airports, work, etc.
 
