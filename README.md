@@ -135,7 +135,7 @@ PLAN FOR NEXT WEEK:
 • Planning to make the program of face recognition using pictures more efficient and better.
 
 
-# Week 8 
+# Week 8 of 03/08/20
 
 HUE:
 
