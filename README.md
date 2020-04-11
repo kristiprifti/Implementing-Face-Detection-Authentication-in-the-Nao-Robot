@@ -17,13 +17,15 @@ out in hospitals, hotels, airports, work, etc.
 
 # Weekly Progress 
 
-# Week 1
+# Week 1 of 01/19/20:
 
-•	The NAO is taking pictures through its built-in cameras.
+We are starting our project by doing research for different programs and documentation.
 
-•	The pictures taken by NAO robot are saved in the connected machine and are easily accessed.
+KRUTARTH:
+• Performed some research and found some code that could be useful in making NAO to take pictures.
 
-•	Pictures can be captured by using either Choregraphe or by using a self-made algorithm. Here, we found that images from the algorithm are better than the one from Choregraphe.
+KRISTI:
+•	Pictures can be captured by using Choregraphe as well. Here, we found that images from the code are better than the one from Choregraphe.
 
 •	The algorithm, that is used here to take pictures from NAO robot is TakePicUsingNao.py
 
