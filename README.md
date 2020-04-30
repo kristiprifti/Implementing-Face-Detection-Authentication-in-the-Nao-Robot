@@ -198,9 +198,27 @@ PLAN FOR NEXT WEEK:
 
 # Week 13 of 04/12/20:
 
+REPORT FROM ALL GROUP MEMBERS:
+
+• Performed a virtual meeting and took decisions on writing Documentation and Research paper of our project.
+
+• Also performed tests on all programs and make sure they are working as expected and without generating any bugs and errors.
+
+PLAN FOR NEXT WEEK:
+
+• Planning to create a program that detects the touch on the head of NAO and start running the programm.
 
 # Week 14 of 04/19/20:
 
+REPORT FROM ALL GROUP MEMBERS:
+
+• Started writing the Documentation and the Research paper of our project. 
+
+• Created a program that detects the touch on NAO's head. When it detects the touch, the program starts running and takes the attendence.
+
+PLAN FOR NEXT WEEK:
+
+• Planning to do a virtual meeting and present the projects and testing all programms with tests cases. 
 
 # Week 15 of 04/26/20:
 
