@@ -222,6 +222,17 @@ PLAN FOR NEXT WEEK:
 
 # Week 15 of 04/26/20:
 
+REPORT FROM ALL GROUP MEMBERS:
+
+• All the programms are running fine without generating any bugs or errors. NAO is learning faces through Choregraphe, and stores in its memory. NAO is taking pictures and saves them in our machine.
+
+• When the programme is ran, NAO takes pictures and compares it with the pictures saved in machine. If they matched, the informaion of student with class name and time is saved in a text file. 
+
+• This text file is sent to the webpage's database and the attendence report is shown on that webpage.
+
+PLAN FOR NEXT WEEK:
+
+• Planning to complete the Documentation and Research Paper.
 
 # Week 16 of 05/03/20:
 
