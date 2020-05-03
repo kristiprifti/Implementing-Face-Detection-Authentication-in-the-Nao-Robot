@@ -12,183 +12,200 @@ Department of Computer Science, Quinsigamond Community College
 
 # Implementing The Face Detection Authentication in the NAO Robot
 
-The NAO Robot a wide range of applications to automate many of our daily tasks. The NAO robot has a built-in camera that can be used to recognize faces. Our project is to use NAO robot to take the attendance for our classes. First, we will train NAO to learn the faces of the students and save it in its memory. After the training, we will build a Blackboard interface to take attendance using the NAO robot. This work will be based on the Python programming language and Choregraphe software. Our application has the potential beyond the classroom. Eventually, it could be programmed to use for check-in and check-out in hospitals, hotels, airports, work, etc.
+The NAO Robot a wide range of applications to automate many of our daily tasks. The NAO robot has a built-in camera that can be used to recognize faces. Our project is to use the NAO robot to take the attendance for our classes. First, we will train NAO to learn the faces of the students and save it in its memory. After the training, we will build a Blackboard interface to take attendance using the NAO robot. This work will be based on the Python programming language and Choregraphe software. Our application has potential beyond the classroom. Eventually, it could be programmed to use for check-in and check-out in hospitals, hotels, airports, work, etc.
 
 # Weekly Progress Report
 
 # Week 1 of 01/19/20:
 
-We are starting our project by doing research for different programs and documentation.
+• Krutarth and I developed the main idea for implementing face recognition in the NAO robot. We started doing some research on Softbank robotics.
 
-KRUTARTH:
-
-• Performed some research and found some code that could be useful in making NAO to take pictures.
-
-KRISTI:
-
-•	Pictures can be captured by using Choregraphe as well. Here, we found that images from the code are better than the one from Choregraphe.
-
-•	The algorithm, that is used here to take pictures from NAO robot is TakePicUsingNao.py
+• We signed off the robot from college and started performing the basic steps on it.
 
 PLAN FOR NEXT WEEK:
 
-Will function NAO robot to learn faces.
+• To write the abstract of our project.
 
 # Week 2 of 01/26/20:
 
-KRISTI:
+We are starting our project by researching different algorithms and documentation from Softbank Robotics and Aldebaran documentation.
 
-• Using face_rec.py to recognize the person in the picture taken by NAO robot
+Report from Krutarth:
 
-• Storing the data from face_rec.py to a .txt file ( Persons name and date and time of pic taken )
+• Started Learning Python programming language.
 
-KRUTARTH:
+• I am performing some research on how to do facial recognition using Choregraphe. 
 
-• NAO robot can recognize different faces using the "learn face" module in Choregraphe.
+Report from Kristi:
+
+•  Pictures can be captured by using Choregraphe software as well as using a box from box libraries. I am working on doing face recognition using pictures.
 
 PLAN FOR NEXT WEEK:
 
-We want NAO to print the names as an output after recognizing the face. 
+• Planning to function the NAO robot to learn many faces.
 
 # Week 3 of 02/02/20:
 
-KRISTI & KRUTARTH:
+Report from Kristi:
 
-• Learn how to use the face_recognition libary in python. File face_rec.py uses mulitiple pyhton libarys do perform facial recogntition.
+• Trying to make a program that can recognize faces by comparing pictures.
 
-• Learning Python online.
+• Here, I am using face_recognition_Module.py to recognize the person in the picture taken by NAO robot. Storing the data from face_recognition_Module.py to a text file (Student's name and date and time when picture was taken).
 
-• Reaseaching some better ways to do real-time face recognition.
+Report from Krutarth:
+
+• Using Choregraphe, I am making the NAO robot learn different faces. NAO robot can recognize different faces using the "learn face" box from box libraries in Choregraphe.
 
 PLAN FOR NEXT WEEK:
 
-To learn Python programming language.
+• We want an output of names and time information when the NAO recognises the face of student.
 
 # Week 4 of 02/09/20:
 
-KRUTARTH:
+Report from Kristi:
+
+• Working on algorithim of face_recognition_module.py
+
+Report from Krutarth:
+
+• Working on algorithim of face_recognition_Using_Choregraphe.py
+
+Report From KRISTI & KRUTARTH:
+
+• Learn how to use the face_recognition libary in python. File face_rec.py uses mulitiple pyhton libarys do perform facial recogntition.
+
+• Researching some better ways to do real-time face recognition.
+
+PLAN FOR NEXT WEEK:
+
+• To learn Python programming language, mostly how to open and close text files, how to modify them and save them with the output of programs
+
+# Week 5 of 02/16/20:
+
+Report from KRUTARTH & KRISTI:
 
 • Learning Python File Handling: Create, Open, Append, Read, Write
 
 • Researching ways to do facial recognition using Amazon Rekognition and PyQt4
 
-KRISTI:
-
 • Experimenting with ways to make face recognition faster and more accurate.
 
-PLAN FOR NEXT WEEK:
-
-HUE:
-
-• Creating a website that can store and display the data from .txt file generated by NAO after running the program.
-
-# Week 5 of 02/16/20:
-
-HUE:
-
-• Creating a website using 000webhost
-
-• Using  PHPMyAdmin to manage the database of the webpage.
-
-KRISTI:
-
-• Made some changes to code that can generate the .txt file in more organized way. Now, this .txt file will also display the course name and date.
-
-KRUTARTH:
-
-• Working on the program which take picture by NAO's built-in camera and compare that picture with other picture existing in the machine. If it finds any match then it outputs the result.
+• Working on modifying both algorithms.
 
 PLAN FOR NEXT WEEK:
 
-• Editing and making small chqanges to the website to make a table of all students, class and attendence and input the required data.
+Plan of Hue:
+
+• Planning to start working on creating a website that can store and display the data from a text file generated by the programs after taking the attendance.
+
+• For this task I will use Webhostapp for making an attendance sheet.
+
+# Week 6 of 02/23/20::
+
+Report from Hue:
+
+• Creating a website using 000webhost. I am Using  PHPMyAdmin to manage the database of the webpage.
+
+• In this webpage, one will able to upload text files, and also can take class attendance through that webpage. All the data will be stored and can be reviewed after.
+
+Report from Kristi:
+
+• Modifying the face_recognition_module.py. Now it can generate the text file in a more organized way. All information of any person with date and time will be stored in this text file by this algorithm.
+
+Report from Krutarth:
+
+• Working on the algorithm of face_recognition_Using_Choregraphe.py. 
+
+• NAO robot has learned the face using Choregraphe. This algorithm takes the face information from NAO's memory. If the student's face matches then it outputs the result through a text file.
+
+PLAN FOR NEXT WEEK:
+
+• Editing and making small changes to the website. Planning to make a table of names of students, class names, date and time, and attendance.
  
-# Week 6 of 02/23/20:
-
-HUE:
-
-Edited the webpage to have a input boxes to take Course Name, First Name, Last Name, date from user. The website can show the attendance report of all the students
-
-KRISTI & KRUTARTH:
-
-• The program of face recognitation by using pictures can generate a .txt file with all information of the face in picture with date and time.
-
-• Using Amazon libraries for facial recognition and to make our programs better
-
-PLAN FOR NEXT WEEK:
-
-• Adding the option to take data from a .txt file and display it on the attendance report 
-
 # Week 7 of 03/01/20:
 
-HUE:
+Report from Hue:
 
-• Added the option to take data from a .txt file and display it on the attendance report.
+• Modified the webpage. Now, it includes a table so that the course name, student's name, date, and time in an organized manner. The website can show the attendance report of all the students for any date.
 
 KRISTI & KRUTARTH:
 
-• We found that the Amazon libraries for face recognition will not be useful for our project ofcfacial recognition.
+• Started creating an algorithm, named as modify_the_start_attendence-time.py.
 
-• Started learning how PyQt4 works with python programming.
+• The program of face_recognition_module.py can generate a text file with all information of the face in the picture with date and time.
+
+• Trying to use Amazon libraries for facial recognition and to make our programs better and less time-consuming.
 
 PLAN FOR NEXT WEEK:
 
-• Planning to make the program of face recognition using pictures more efficient and better.
-
+• Planning to learn and use Amazon libraries. 
+• Planning to make our algorithms less time-consuming. 
 
 # Week 8 of 03/08/20
 
-HUE:
+KRISTI & KRUTARTH:
 
-• Using requests and beautifulsoup4 python libraries to post data to the website directly from python
+• We found that the Amazon libraries for face recognition will not be beneficial for our project.
 
-KRISTI:
-
-• Creating a program that posts the data of attendence directly to website's database.
-
-KRUTARTH:
-
-• Testing all programs working proprly for all kinds of faces. 
-• We found that the program of face recognition using pictures is more efficient that the one using Cheorographe tools.
+• We finished implementing face_recognition_module.py and face_recognition_Using_Choregraphe.py
 
 PLAN FOR NEXT WEEK:
 
-• Planning to add a time option to the website. 
-
-• Automating the python scripts to run continually  ( Take a pic ==>  recognize  student ==>  post data to the website ) 
+• Planning to make the program of face recognition using pictures more efficient and better. 
 
 # Week 9 of 03/15/20:
 
-  Spring Break.
+Spring Break.
 
 # Week 10 of 03/22/20:
 
-  Spring Break.
+Spring Break.
 
 # Week 11 of 03/29/20:
 
-REPORT FROM ALL GROUP MEMBERS:
+Report from Hue:
 
-• The website is taking the data from the .txt file created by NAO.
+• Using requests and beautifulsoup4 python libraries to post data to the website directly from python programs.
 
-• It sorts the information fromthe file and displays all names of students present in the class, with the class name and date.
+Report from Kristi:
+
+• Completed the algorithm of modify_the_start_attendence-time.py. With the help of this program, the user can input the date, time, and course information if they do not want to use real-time.
+
+• Creating a program that posts the data of attendance directly to the website's database.
+
+Report from Krutarth:
+
+• Testing the face_recognition_Using_Choregraphe.py. It's working properly for all faces stored in the memory of NAO. 
+
+• We conclude that the program of face recognition using pictures is more efficient than the one using Cheorographe tools.
 
 PLAN FOR NEXT WEEK:
 
-• Creating program that can directly uploads the data to the webpage after running the program of face recognition.
+• Planning to automate all the python scripts to run continuously. (Take a pic ==>  recognize  student ==>  post data to the website)
 
 # Week 12 of 04/05/20:
 
+REPORT FROM ALL GROUP MEMBERS:
+
+• Created an algorithm named. Uses_NAO_Camera_To_take_Pic.py. This program takes a picture by using NAO's built-in camera and saves it in our machine. We do not need to use Choregraphe for capturing pictures anymore. This algorithm makes it easier than using Choregraphe software.
+
+• Webpage sorts the information from the file and displays all names of students present in the class, with the class name and date.
+
+PLAN FOR NEXT WEEK:
+
+• Creating a program that can directly upload the data to the webpage automatically, after running the program of face recognition.
+
+# Week 13 of 04/12/20:
+
 KRISTI & KRUTARTH:
 
-• Using file testrequets.py to do the data posting to the website 
+• Using file Starts_attendence_with_back_click_of_head.py, to start and stop running the algorithms. This program 
 
-• Another way of doing data posting is by using mechanize pyhton libary  (mechanize.py)
+• Found Another way of proceeding data posting is by using mechanize python library  (mechanize.py)
 
 REPORT FROM ALL GROUP MEMBERS:
 
-• Created the program that asks the user to input the date and starting time of class. 
-
-• Now, we don't need to upload the .txt file manually. This program does it automatically.
+• We modified the python scripts. Now, we don't need to upload the text file manually. When we run the program, the text file is uploaded on the webpage when it completes taking attendance.
 
 • This program also outputs the students who came late in class.
 
@@ -196,7 +213,7 @@ PLAN FOR NEXT WEEK:
 
 • We will start writing the Documentation and Research Paper of our project.
 
-# Week 13 of 04/12/20:
+# Week 14 of 04/19/20:
 
 REPORT FROM ALL GROUP MEMBERS:
 
@@ -206,33 +223,38 @@ REPORT FROM ALL GROUP MEMBERS:
 
 PLAN FOR NEXT WEEK:
 
-• Planning to create a program that detects the touch on the head of NAO and start running the programm.
-
-# Week 14 of 04/19/20:
-
-REPORT FROM ALL GROUP MEMBERS:
-
-• Started writing the Documentation and the Research paper of our project. 
-
-• Created a program that detects the touch on NAO's head. When it detects the touch, the program starts running and takes the attendence.
-
-PLAN FOR NEXT WEEK:
-
-• Planning to do a virtual meeting and present the projects and testing all programms with tests cases. 
+• Planning to create a program that detects the touch on the head of NAO and start running the program.
 
 # Week 15 of 04/26/20:
 
 REPORT FROM ALL GROUP MEMBERS:
 
-• All the programms are running fine without generating any bugs or errors. NAO is learning faces through Choregraphe, and stores in its memory. NAO is taking pictures and saves them in our machine.
+• Started writing the Documentation and the Research paper of our project. 
 
-• When the programme is ran, NAO takes pictures and compares it with the pictures saved in machine. If they matched, the informaion of student with class name and time is saved in a text file. 
-
-• This text file is sent to the webpage's database and the attendence report is shown on that webpage.
+• Created a program that detects the touch on NAO's head. When it detects the touch, the program starts running and takes attendance.
 
 PLAN FOR NEXT WEEK:
 
-• Planning to complete the Documentation and Research Paper.
+• Planning to do a virtual meeting and present the projects and testing all programs with test cases. 
 
-# Week 16 of 05/03/20:
+# Week 16 of 05/03/20
 
+REPORT FROM ALL GROUP MEMBERS:
+
+• All the programs are running fine without generating any bugs or errors. NAO is learning faces through Choregraphe, and stores in its memory. NAO is taking pictures and saves them in our machine.
+
+• When the program is running, NAO takes pictures and compares it with the pictures saved in the machine. If they matched, the information of students with class names and time is saved in a text file. 
+
+• This text file is sent to the webpage's database and the attendance report is shown on that webpage. This report can be accessed anytime after.
+
+Worked Completed by KRISTI:
+
+• Completed and organized the face_recognition_module.py and Starts_aAttendence_with_back_click_of_NAO.py
+
+Worked Completed by KRUTARTH:
+
+• Completed and organized the face_recognition_Using_Choregraphe.py and Uses_Nao_Camera_To_Take_pic.py
+
+Worked Completed by HUE:
+
+• Designed and worked on the webpage that keeps the records of all attendance taken. 
