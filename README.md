@@ -169,7 +169,7 @@ Report from Hue:
 
 Report from Kristi:
 
-• Completed the algorithm of modify_the_start_attendence-time.py. With the help of this program, the user can input the date, time, and course information if they do not want to use real-time.
+• Completed the algorithm of modify_the_start_attendence_time.py. With the help of this program, the user can input the date, time, and course information if they do not want to use real-time.
 
 • Creating a program that posts the data of attendance directly to the website's database.
 
@@ -185,9 +185,15 @@ PLAN FOR NEXT WEEK:
 
 # Week 12 of 04/05/20:
 
-REPORT FROM ALL GROUP MEMBERS:
+Report from Krutarth:
 
 • Created an algorithm named. Uses_NAO_Camera_To_take_Pic.py. This program takes a picture by using NAO's built-in camera and saves it in our machine. We do not need to use Choregraphe for capturing pictures anymore. This algorithm makes it easier than using Choregraphe software.
+
+Report from Kristi:
+
+• Created a function named as Starts_attendence_with_back_click_of_head.py, that detects the touch on NAO's head with the help of touch sensors. When it detects the touch, the program starts running and takes attendance.
+
+Report from Hue:
 
 • Webpage sorts the information from the file and displays all names of students present in the class, with the class name and date.
 
@@ -197,17 +203,13 @@ PLAN FOR NEXT WEEK:
 
 # Week 13 of 04/12/20:
 
-KRISTI & KRUTARTH:
+REPORT FROM KRISTI & KRUTARTH:
 
-• Using file Starts_attendence_with_back_click_of_head.py, to start and stop running the algorithms. This program 
+• Automated all the pythons code. We modified the python scripts. Now, we don't need to upload the text file manually. When we run the program, the text file is uploaded on the webpage when it completes taking attendance.
 
-• Found Another way of proceeding data posting is by using mechanize python library  (mechanize.py)
+• Take a pic ==>  recognize  student ==>  post data to the website, and runs again automatically.
 
-REPORT FROM ALL GROUP MEMBERS:
-
-• We modified the python scripts. Now, we don't need to upload the text file manually. When we run the program, the text file is uploaded on the webpage when it completes taking attendance.
-
-• This program also outputs the students who came late in class.
+• This program also outputs the students who came late in class. Website shows these late comers.
 
 PLAN FOR NEXT WEEK:
 
@@ -217,21 +219,33 @@ PLAN FOR NEXT WEEK:
 
 REPORT FROM ALL GROUP MEMBERS:
 
+• We completed all our programs. 
+
 • Performed a virtual meeting and took decisions on writing Documentation and Research paper of our project.
 
 • Also performed tests on all programs and make sure they are working as expected and without generating any bugs and errors.
 
 PLAN FOR NEXT WEEK:
 
-• Planning to create a program that detects the touch on the head of NAO and start running the program.
+• Planning to add test cases to our codes and count hits amd misses.
 
 # Week 15 of 04/26/20:
 
-REPORT FROM ALL GROUP MEMBERS:
+Report from Krutarth:
 
-• Started writing the Documentation and the Research paper of our project. 
+• Started writing the Research paper of our project and modifying GitHub weekely reports.
 
-• Created a program that detects the touch on NAO's head. When it detects the touch, the program starts running and takes attendance.
+• Testing the code of face_recognition_Using_Choregraphe.py by adding different test cases to it.
+
+Report from Kristi:
+
+• Started learning Doxygen online. I will use Doxygen to write Documentation of our project.
+
+• Performing tests with different pictures to face_recognition_module.py.
+
+Report from Hue:
+
+• Adding comments and testing all my HTML and PHP files. Started writing the research paper for my part of project
 
 PLAN FOR NEXT WEEK:
 
