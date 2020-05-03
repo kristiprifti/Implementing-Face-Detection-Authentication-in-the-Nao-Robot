@@ -249,12 +249,19 @@ REPORT FROM ALL GROUP MEMBERS:
 
 Worked Completed by KRISTI:
 
-• Completed and organized the face_recognition_module.py and Starts_aAttendence_with_back_click_of_NAO.py
+• Completed and organized the face_recognition_module.py and Starts_Attendence_with_back_click_of_NAO.py
+
+• I performed the face recognition by comparing pictures taken from NAO's built-in camera with the pictures stored on the machine.
 
 Worked Completed by KRUTARTH:
 
 • Completed and organized the face_recognition_Using_Choregraphe.py and Uses_Nao_Camera_To_Take_pic.py
 
+• I performed face recognition by using the faces from the memory of the NAO robot.
+
 Worked Completed by HUE:
 
-• Designed and worked on the webpage that keeps the records of all attendance taken. 
+• Designed and worked on the webpage that keeps the records of all attendance taken.
+
+• I created a table which includes student name, class name, date, and time of class.
+
