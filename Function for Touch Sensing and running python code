@@ -1,0 +1,35 @@
+
+    def onTouched(self, strVarName, value):                #function that detects the touch through touch sensors of NAO
+        """ This will be called each time a touch
+        is detected.
+
+        """
+                                      # Disconnect to the event when talking,
+                                      # to avoid repetitions
+        self.touch.signal.disconnect(self.id)
+
+        touched_bodies = []
+        for p in value:
+            if p[1]:
+                touched_bodies.append(p[0])
+
+        self.sss(touched_bodies)
+        print touched_bodies
+
+                                                                            # Reconnect again to the event
+        self.id = self.touch.signal.connect(functools.partial(self.onTouched, "TouchChanged"))
+
+    def sss(self, bodies):
+        if (bodies == []):
+            return
+        else:
+            touched1 =  bodies[1]
+            print touched1
+        if (touched1 == 'Head/Touch/Front'):                  #when the front part of head is touched, it says
+            self.tts.say ("Welcome to  \\pau=100\\ CSC 212" )
+        if (touched1 == 'Head/Touch/Middle'):                 #when the middle part of the head is touched, it says
+            self.tts.say ("Touch the back of my head to start attendance" )
+        if (touched1 == 'Head/Touch/Rear'):                   #when the rear part of the head is touched, it says
+            self.tts.say ("Attendance started" )
+            os.system("python facerec01.py")
+            self.tts.say ("Attendance done" )                 # when touched again on the rear, it stops running.
