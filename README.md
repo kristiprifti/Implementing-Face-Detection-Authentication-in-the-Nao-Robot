@@ -247,11 +247,14 @@ REPORT FROM ALL GROUP MEMBERS:
 
 • This text file is sent to the webpage's database and the attendance report is shown on that webpage. This report can be accessed anytime after.
 
+• We completed Research Paper and Documentation of our project.
+
 Worked Completed by KRISTI:
 
 • Completed and organized the face_recognition_module.py and Starts_Attendence_with_back_click_of_NAO.py
 
 • I performed the face recognition by comparing pictures taken from NAO's built-in camera with the pictures stored on the machine.
+
 
 Worked Completed by KRUTARTH:
 
