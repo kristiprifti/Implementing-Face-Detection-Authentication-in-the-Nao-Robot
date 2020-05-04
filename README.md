@@ -145,9 +145,9 @@ PLAN FOR NEXT WEEK:
 
 KRISTI & KRUTARTH:
 
-• We found that the Amazon libraries for face recognition will not be beneficial for our project.
+• We worked on Amazon libraries for face recognition. We conclude that they are not be beneficial for our project.
 
-• We finished implementing face_recognition_module.py and face_recognition_Using_Choregraphe.py
+• We finished the basic code of face_recognition_module.py and face_recognition_Using_Choregraphe.py
 
 PLAN FOR NEXT WEEK:
 
