@@ -128,7 +128,7 @@ Report from Hue:
 
 • Working on Index.html.
 
-• Modified the webpage algorithm. Now, it includes a table so that the course name, student's name, date, and time in an organized manner. The website can show the attendance report of all the students for any date.
+• Modified the webpage algorithm. Now, it includes a table so that the course name, student's name, date, and time in an organized manner. 
 
 KRISTI & KRUTARTH:
 
@@ -167,9 +167,9 @@ Spring Break.
 
 Report from Hue:
 
-• Using requests and beautifulsoup4 python libraries to post data to the website directly from python programs.
-
 • Finished with working on Update.PHP and Report.PHP.
+
+• Webpage sorts the information from the file and displays all names of students present in the class, with the class name and date.
 
 Report from Kristi:
 
@@ -201,9 +201,7 @@ Report from Kristi:
 
 Report from Hue:
 
-• Finished the implemation of MySQL database and Upload.PHP.
-
-• Webpage sorts the information from the file and displays all names of students present in the class, with the class name and date.
+• Create upload.php file to upload the text file to website and insert data to database.
 
 PLAN FOR NEXT WEEK:
 
@@ -218,6 +216,10 @@ REPORT FROM KRISTI & KRUTARTH:
 • Take a pic ==>  recognize  student ==>  post data to the website, and runs again automatically.
 
 • This program also outputs the students who came late in class. Website shows these late comers.
+
+Report from Hue:
+
+• Add Late chechbox to the website, and modified all the files to take Late information to database and display it.
 
 PLAN FOR NEXT WEEK:
 
@@ -253,7 +255,7 @@ Report from Kristi:
 
 Report from Hue:
 
-• Adding comments and testing all my HTML and PHP files. Started writing the research paper for my part of project
+• Adding comments and testing all my HTML and PHP files. Started writing the research paper for Webpage part.
 
 PLAN FOR NEXT WEEK:
 
