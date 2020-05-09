@@ -42,7 +42,7 @@
 
     $errors = []; // Store errors here
 
-    $fileExtensionsAllowed = ['txt']; //  only text file  allowed 
+    $fileExtensionsAllowed = ['txt']; //  only text file is allowed 
 
     $fileName = $_FILES['the_file']['name'];
     $fileSize = $_FILES['the_file']['size'];
@@ -51,7 +51,7 @@
     $fileExtension = strtolower(end(explode('.',$fileName)));
 
     $uploadPath = $currentDirectory . $uploadDirectory . basename($fileName);  // specifies the path of the file to be uploaded
-    // Check if we click submit 
+    // Check if we click on submit button
     if (isset($_POST['submit'])) {
         // Connect to database table
         $servername = "localhost";
@@ -88,8 +88,11 @@
           echo $error . "These are the errors" . "\n";
         }
       }
-    // open the file
+    // open the file to be read
     $open = fopen( $uploadPath,'r');
+/* The feof() function checks if the "end-of-file" (EOF) has been reached 
+   If the end of file has not been reached, using he fgetc() function is used to read a text line from a file.
+   with explode()- Split a string by a string, we split string by comma */
     while (!feof($open)) 
     {
 	$getTextLine = fgets($open);
@@ -106,8 +109,8 @@
        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
     }
- 
-    fclose($open);
+    
+    fclose($open); // close the file after we finish reading
 	    
     }
 ?>
