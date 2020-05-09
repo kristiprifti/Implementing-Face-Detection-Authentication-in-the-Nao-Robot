@@ -201,7 +201,7 @@ Report from Kristi:
 
 Report from Hue:
 
-• Finished the implemation of MySQL database.
+• Finished the implemation of MySQL database and Upload.PHP.
 
 • Webpage sorts the information from the file and displays all names of students present in the class, with the class name and date.
 
