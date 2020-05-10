@@ -1,5 +1,8 @@
 <?php
-/* Search value in all table columns */
+/* Search value in all columns of table to present what we are looking for
+   when a button named search is hit, we get the value from text box valueToSearch
+   $query will get all data from database table if the value are searched doesn't match anything in the table;
+   otherwise, $query only get data that matched*/
     if(isset($_POST['search']))
 {
     $valueToSearch = $_POST['valueToSearch'];
@@ -16,7 +19,7 @@
 
 
 
-// function to connect and execute the query
+// function to connect and execute the query return 
 function filterTable($query)
 {
  $servername = "localhost";
@@ -70,13 +73,13 @@ h2{
 <h2>Attendence Report</h2>
 	
 <body>
-	/* Create a filter form to search the value looking for */
-  <form action="filter.php" method="post"> 
+<!--Create a filter form to search value that we want to see in the table-->
+  <form action="" method="post"> 
             <input type="text" name="valueToSearch" placeholder="Value To Search"><br><br>
             <input type="submit" name="search" value="Filter"><br>
   </form>
 
-	
+<!--Create a table in the webpage with 6 columns-->	
 <table>
 <tr>
     <th>Course</th>
@@ -87,7 +90,8 @@ h2{
 	<th>Late</th>
 </tr>
 
-    <?php while($row = mysqli_fetch_array($search_result)) { /* Output data stored and display in the table */
+    <?php while($row = mysqli_fetch_array($search_result)) {
+	/* Output data stored and display in the table with mysqli_fetch_array() funtion, we take each row of the result and print the data stored*/
         $courseQuery = $row['Course'];
         $firstnameQuery =$row['FirstName'];
         $lastnameQuery = $row['LastName'];
