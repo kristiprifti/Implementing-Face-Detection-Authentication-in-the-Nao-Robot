@@ -30,15 +30,6 @@ class attendancetaker(object):                       # class begins
     """
     A simple class to react to face detection events.
     """
-    
-    """
-    Function: convert(seconds) will take the time in seconds
-    as an input. The main task for this function is to check if the
-    student is on the time or is late for the class. It also outputs
-    time info in the compiler while ran, and also sends the information
-    to the webpage to save the report.
-    """
-    
     """
     Function: onTouched(strVarName, value) and sss(bodies). These function
     aim to determine whether the robot is touched. on head. It is a
