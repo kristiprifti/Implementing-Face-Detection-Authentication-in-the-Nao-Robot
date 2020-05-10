@@ -1,0 +1,42 @@
+<!-- This is the first page of the website that can get data from user -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Attendance</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" href = "style.css">	
+    </head>
+    
+<body>
+<h1>Attendance Sheet</h1>
+
+<!-- Links to upload page and report page -->
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="Upload.php">Upload</a>
+  <a href="report.php">Report</a>
+</div>
+
+<!-- Create a interafce form to take data from the user, create 4 text boxes to ask course, firstname, lastname, date, 
+     all text boxes are type of "text", for ech of text boxes, the text box can not be left blank
+      and 2 checkboxes for attendance, and late
+      when we click on submit button with the method POST, the data submitted by the user will be passed to a script named update.php-->
+	
+<form class="info" name="form1" action="update.php" method="post">
+    <p>Take Attendence</p>
+Course <input type= "text" name="Course" value="" > <br/>
+First Name <input type="text" name="FirstName" value="" > <br/>
+Last Name <input type="text" name="LastName" value=""> <br/>
+Date <input type="date" name="Date" value=""> <br/>
+<input type="checkbox" name="Attendance">
+<label for="vehicle1"> Attendance</label><br/>
+<input type="checkbox" name="Late">
+<label for="vehicle2"> Late</label><br/><br/>
+
+<input type="submit" name="submitbutton" value="Submit">
+</form>
+
+</body>
+</html>
