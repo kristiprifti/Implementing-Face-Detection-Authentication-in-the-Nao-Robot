@@ -1,4 +1,4 @@
-# Implementing The Face Detection Authentication in the Nao Robot
+# Implementing the Face Detection Authentication in the Nao Robot
 
 Kristi Prifti
 
