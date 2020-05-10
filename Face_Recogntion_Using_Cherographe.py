@@ -37,8 +37,7 @@ class attendancetaker(object):                       # class begins
     Function: onTouched(strVarName, value) and sss(bodies). These function
     aim to determine whether the robot is touched. on head. It is a
     Boolean behavior. So, whenever the touch is detected on NAO’s head,
-    the program will start running in our machine and when touched again,
-    it will stop running the program.
+    the program will greet and will output speech as written in this code.
     """
     
     def onTouched(self, strVarName, value):     
