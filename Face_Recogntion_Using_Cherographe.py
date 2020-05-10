@@ -30,7 +30,8 @@ class attendancetaker(object):                       # class begins
     """
     A simple class to react to face detection events.
     """
-  
+    
+    
     
     """
     Function: onTouched(strVarName, value) and sss(bodies). These function
@@ -63,7 +64,10 @@ class attendancetaker(object):                       # class begins
             touched1 =  bodies[1]
             print(touched1)
         if (touched1 == 'Head/Touch/Front'):
-            self.tts.say ("Welcome to  \\pau=100\\ CSC 212" )
+            self.tts.say ("Hi there  \\pau=100\\ my name is Nao \\pau=100\\ im the attendance robot" )
+        if (touched1 == 'Head/Touch/Middle'):
+            self.tts.say ("Touch the back of my head  \\pau=100\\ to start attendance" )
+
             
         
         
@@ -107,13 +111,17 @@ class attendancetaker(object):                       # class begins
         """
         Callback for event FaceDetected.
         """
+        #self.sss(touched_bodies)
         
         if value == []:                                          # empty value when the face disappears
             self.got_face = False
         elif not self.got_face:                                  # only speak the first time a face appears
             self.got_face = True
+            
+             
             print("I saw a face!")
-            #self.tts.say ("Hello student  " )
+            
+                #self.tts.say ("Hello student  " )
 
          # Second Field = array of face_Info's.
             faceInfoArray = value[1]
