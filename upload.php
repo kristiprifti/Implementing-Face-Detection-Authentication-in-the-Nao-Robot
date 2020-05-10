@@ -1,3 +1,5 @@
+<!-- this file include html block that create a interface to upload a file and php block to read and insert data into database -->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -8,8 +10,8 @@
 		</style>
 	</head>
 	<body>
-    <!-- create a form interface to be read and insert data into database -->
-		<form action="" method="post" enctype="multipart/form-data">
+    <!-- create a form interface to upload text file that got information of students from NAO robot and insert data into database -->
+		<form action="" method="post" enctype="multipart/form-data"> 
 		<table cellpadding="10" align="center" rules="all" frame="box">
 			<tr>
 				<td colspan="2">
@@ -37,7 +39,7 @@
 </html>
  
   <?php
-    $currentDirectory = getcwd(); // get current directoty
+    $currentDirectory = getcwd(); // fetcwd() funtion used to get current directoty
     $uploadDirectory = "/files/"; // specifies the directory where the file is going to be placed
 
     $errors = []; // Store errors here
@@ -51,9 +53,10 @@
     $fileExtension = strtolower(end(explode('.',$fileName)));
 
     $uploadPath = $currentDirectory . $uploadDirectory . basename($fileName);  // specifies the path of the file to be uploaded
-    // Check if we click on submit button
+    // isset() check if we click on submit button
     if (isset($_POST['submit'])) {
-        // Connect to database table
+        /* Connect to database table with msqli_coonect(), check if it can't connect to database table so print "Connection failed"
+	   otherwise print out "connect sucessful" and website can start working with dabase table*/
         $servername = "localhost";
 	$username = "id12730815_rbproject";
 	$password = "myproject";
@@ -66,18 +69,18 @@
 	    echo "connect sucessful";
 	}
 	mysqli_select_db($conn,$database);
-       // Check if selected file type is match 
+       // Check if selected file type is match, if it's not txt so give the error
       if (!in_array($fileExtension,$fileExtensionsAllowed)) {
         $errors[] = "This file extension is not allowed. Please upload a text file";
       }
-      // Check file size
+      // Check file size, if file's size is over 4000000 so give out the error 
       if ($fileSize > 4000000) {
         $errors[] = "File exceeds maximum size (4MB)";
       }
-       //Check if $error is set to 0 
+       //Check if there is no error
       if (empty($errors)) {
         $didUpload = move_uploaded_file($fileTmpName, $uploadPath);
-        // Check if file already exists
+        // Check if file already exists 
         if ($didUpload) {
           echo "The file " . basename($fileName) . " has been uploaded";
         } else {
@@ -88,11 +91,13 @@
           echo $error . "These are the errors" . "\n";
         }
       }
-    // open the file to be read
+    // Funtion fopen() to open the file to be read
     $open = fopen( $uploadPath,'r');
-/* The feof() function checks if the "end-of-file" (EOF) has been reached 
-   If the end of file has not been reached, using he fgetc() function is used to read a text line from a file.
-   with explode()- Split a string by a string, we split string by comma */
+/* With a loop,the feof() function checks if the "end-of-file" (EOF) has been reached 
+   If the end of file has not been reached, the fgetc() function is used to read a text line from a file.
+   with explode()- Split a string by a string, we split string by comma in each line
+   after split each line to strings, we use list() funtion to assign them to multiple variables
+   Then we use INSERT INTO ... VALUES.. command to insert data into database table*/
     while (!feof($open)) 
     {
 	$getTextLine = fgets($open);
@@ -105,12 +110,13 @@
 
 	if (mysqli_query($conn, $sql)) {
         echo "New record created successfully<br>";
-    } else {
-       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-    }
+	}
+        else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+       }
     }
     
-    fclose($open); // close the file after we finish reading
+    fclose($open); // fclose() funtion to close the file after we finish reading
 	    
     }
 ?>
