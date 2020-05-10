@@ -2,7 +2,8 @@
 
 
 
-#### 1.	Softbank Robotics. https://www.softbankrobotics.com/emea/en/nao
+#### 1.	Softbank Robotics.
+https://www.softbankrobotics.com/emea/en/nao
 
 #### 2.	NAO Software 1.14.5 Documentation, Choregraphe Software.
 http://doc.aldebaran.com/1-14/software/choregraphe/interface.html
